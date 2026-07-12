@@ -1,0 +1,14 @@
+README.md
+SKILL.md
+assets/section_templates.md
+examples/prompts.md
+manifest.txt
+references/academic_sentence_paragraph_rules.md
+references/common_english_fixes.md
+references/courseware_synthesis.md
+references/paper_structure.md
+references/public_skill_patterns.md
+references/reviewer_response.md
+references/style_rules.md
+references/tables_figures_latex.md
+references/venue_style_research.md
