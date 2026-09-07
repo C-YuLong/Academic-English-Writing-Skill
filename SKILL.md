@@ -26,6 +26,7 @@ The default user may write instructions in Chinese. Reply in the user's language
 13. Use academic language. The default register is formal, neutral, clear, evidence-based, and discipline-aware. Academic language should be precise, not pompous.
 14. When producing bilingual Markdown for paper drafts, use sentence-level English--Chinese pairs: one English sentence line followed immediately by its Chinese sentence line, no blank line inside the pair, one blank line between sentence pairs, and two blank lines between paragraphs.
 15. End every manuscript collaboration with a mandatory editorial audit. Inspect all drafted, translated, revised, or reviewed prose for overlong sentences, logical jumps, and defensive language aimed at hypothetical reviewers; fix each issue before delivery whenever the technical meaning permits.
+16. Avoid default-model prose habits. Treat recurring AI-associated wording, symmetry, and formatting as revision signals, not as proof of AI authorship or a blanket ban on valid academic language.
 
 ## When to Read Reference Files
 
@@ -35,6 +36,7 @@ Read only the files needed for the current task.
 - For polishing, style checking, grammar, terminology, notation, acronyms, citations, cross-references, and formatting rules, read `references/style_rules.md`.
 - For crisp sentence style, topic sentences, paragraph structure, given-new information flow, tense choices, modality, articles, and academic register, read `references/academic_sentence_paragraph_rules.md`.
 - For Chinese-to-English academic writing issues and recurring engineering-paper phrase fixes, read `references/common_english_fixes.md`.
+- For an AI-style signal audit, or when the user asks to make prose less generic, less templated, or less AI-sounding, read `references/ai_style_signals.md`.
 - For figures, tables, skeleton result tables, captions, metrics, axes, LaTeX, Word, and cross-reference workflows, read `references/tables_figures_latex.md`.
 - For reviewer responses, rebuttals, camera-ready revisions, and response letters, read `references/reviewer_response.md`.
 - For substantial drafting, venue-targeted writing, or field-specific style imitation, read `references/venue_style_research.md` before writing.
@@ -123,6 +125,7 @@ For revised text:
 - Standardize terminology, acronyms, notation, capitalization, and units.
 - Align the structure and rhetorical moves with recent venue examples when the task asks for venue fit.
 - Do not silently delete important technical details; if removal improves flow, note the deletion.
+- Run the AI-style signal audit when requested and for substantial generated or substantially rewritten prose; preserve a flagged expression when it is technically exact and document the reason only if material.
 
 ### 7. Produce the output in the right format
 
@@ -152,6 +155,12 @@ Before delivering any task that drafts, translates, polishes, rewrites, or revie
 
 Fix detected issues directly when the requested task permits editing. If a fix would require inventing evidence, changing technical meaning, or making an authorial decision, preserve the text and report the unresolved issue concisely. For substantial outputs, briefly state that the audit was completed and identify any material unresolved risks; do not burden the user with a report when no noteworthy issue remains.
 
+### 9. Run the AI-style signal audit when applicable
+
+For substantial generated or substantially rewritten manuscript prose, and whenever the user asks for natural, non-generic, or non-AI-sounding English, read `references/ai_style_signals.md` and perform its four-pass audit. This audit is a style-and-substance check, not an authorship detector: do not label text AI-generated and do not delete a word merely because it appears on a watchlist.
+
+Replace or remove high-risk boilerplate when a plainer, evidence-bearing statement preserves the meaning. Retain a flagged word or construction when it is a defined technical term, required by the target venue, a faithful quotation, or the clearest accurate wording. Do not manufacture variation solely to evade detectors.
+
 ## Quality Gate Before Final Answer
 
 Before sending the final answer, check:
@@ -164,6 +173,8 @@ Before sending the final answer, check:
 - Were long or clause-heavy sentences split or restructured where clarity improved, without applying a rigid word-count rule?
 - Does the prose sound like an academic paper rather than a rebuttal or imagined defense against nonexistent reviewers?
 - Were preemptive concessions, unnecessary caveats, and unprompted objection handling removed or stated directly?
+- When applicable, did the AI-style signal audit remove unsupported generic framing, ornamental vocabulary, formulaic symmetry, and model-like formatting without degrading technical precision?
+- Were any retained high-risk expressions technically necessary, evidence-bearing, or required by the target convention?
 - Does each sentence connect tightly to the previous sentence through explicit logic or given-before-new flow, without missing premises or unexplained jumps?
 - Does information flow from given to new instead of surprising the reader with unsupported new subjects?
 - Are register, tone, and style formal, neutral, clear, and evidence-based?

@@ -4,6 +4,7 @@ assets/section_templates.md
 examples/prompts.md
 manifest.txt
 references/academic_sentence_paragraph_rules.md
+references/ai_style_signals.md
 references/common_english_fixes.md
 references/courseware_synthesis.md
 references/paper_structure.md

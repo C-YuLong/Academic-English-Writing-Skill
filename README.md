@@ -44,3 +44,10 @@ Upload the zip file or folder to a Skills-compatible environment. The zip contai
 - Requires explicit checks for overlong or clause-heavy sentences, logical jumps, and defensive language aimed at hypothetical reviewers.
 - Requires direct repair when technical meaning permits and concise reporting when an issue needs evidence or an authorial decision.
 - Extends the final quality gate to verify full-output coverage, paragraph architecture, claim discipline, terminology, and information flow.
+
+
+## Version 1.4 additions
+
+- Adds a context-sensitive AI-style signal audit; it is not an AI-authorship detector or a blanket word ban.
+- Adds `references/ai_style_signals.md`, with high-risk phrase families, technical exceptions, replacement strategies, and a four-pass review procedure.
+- Requires the audit for substantial generated or substantially rewritten prose and on request.
